@@ -70,7 +70,7 @@ body {
 }
 
 #profile_container .description {
-    top: 180px; left: 4%;
+    top: 180px; left: 32px;
     width: 92%; height: auto;
     color: #DDD;
     text-shadow: 1px 1px 1px #000, 1px 1px 2px #000, 1px 1px 3px #000;
