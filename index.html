@@ -1,0 +1,157 @@
+<html>
+    <head>
+        <title>Akali | TuneTerra</title>
+        <link rel='stylesheet' href='./src/tuneterra.css' />
+        <link rel='shortcut icon' href='https://static.wikia.nocookie.net/leagueoflegends/images/e/e8/Universe_icon_nav.png' />
+    </head>
+
+    <script>
+        function albumClick(element){
+            console.log(element);
+            element.className = (element.className == 'album_container' ? 'album_container active' : 'album_container');
+        }
+    </script>
+    
+    <script src="./src/tuneterra.js"></script>
+    <script src="./src/data.js"></script>
+    
+    <body>
+        <div id="container">
+            <div id="profile_container">
+            </div>
+        </div>
+
+        <script>
+            tuneterra.injectProfile();
+            
+            tuneterra.discographyAddAlbum(createAlbum({
+                albumTitle: 'V',
+                albumType: 'Album',
+                albumImage: './data/img/album_v.png',
+                albumDate: (new Date('2023-08-13T00:00:00')),
+                albumTracks: [
+                    {title: 'Killin\' It', artist: 'Akali, Riven', plays: 12248724, url: 'https://www.youtube.com/watch?v=xS-jtET_wxs&list=PLjAJfrhVJlru0N2Wpz8BzYHVlDgCVgThG&index=1&pp=gAQBiAQB8AUB'},
+                    {title: 'Live For The Night', artist: 'Akali, Riven', plays: 11527747, url: 'https://www.youtube.com/watch?v=BZpZzJnZ5to&list=PLjAJfrhVJlru0N2Wpz8BzYHVlDgCVgThG&index=2&pp=gAQBiAQB8AUB'},
+                    {title: 'Somewhere to Run', artist: 'Akali, Riven', plays: 7155428, url: 'https://www.youtube.com/watch?v=eZVoq2SZfu0&list=PLjAJfrhVJlru0N2Wpz8BzYHVlDgCVgThG&index=3&pp=gAQBiAQB8AUB'},
+                    {title: 'Fire Hive', artist: 'Akali, Riven', plays: 9238423, url: 'https://www.youtube.com/watch?v=kXRcvkkXj3s&list=PLjAJfrhVJlru0N2Wpz8BzYHVlDgCVgThG&index=4&pp=gAQBiAQB8AUB'},
+                    {title: 'Bitch of the Year', artist: 'Akali, Riven', plays: 10571390, url: 'https://www.youtube.com/watch?v=U6eeOAY_b_I&list=PLjAJfrhVJlru0N2Wpz8BzYHVlDgCVgThG&index=5&pp=gAQBiAQB8AUB'},
+                    {title: 'Beggars', artist: 'Akali, Riven', plays: 12510806, url: 'https://www.youtube.com/watch?v=8Ww-SJv-c0I&list=PLjAJfrhVJlru0N2Wpz8BzYHVlDgCVgThG&index=6&pp=gAQBiAQB8AUB'},
+                    {title: 'Surrender The Throne', artist: 'Akali, Riven', plays: 10860702, url: 'https://www.youtube.com/watch?v=ElNP2wn0e6Y&list=PLjAJfrhVJlru0N2Wpz8BzYHVlDgCVgThG&index=7&pp=gAQBiAQB8AUB'},
+                    {title: 'New World (Live at PentaKill)', artist: 'Akali, Riven', plays: 12313089, url: 'https://www.youtube.com/watch?v=wuhP6uRY7u0&list=PLjAJfrhVJlru0N2Wpz8BzYHVlDgCVgThG&index=8&pp=gAQBiAQB8AUB&t=2s'}
+                ]
+            }));
+
+            tuneterra.discographyAddAlbum(createAlbum({
+                albumTitle: 'No Boys Allowed',
+                albumType: 'EP',
+                albumImage: './data/img/album_noboysallowed.png',
+                albumDate: (new Date('2023-01-03T00:00:00')),
+                albumTracks: [
+                    {title: 'hi, it\'s me.', artist: 'Akali', plays: 8971473, url: 'https://www.youtube.com/watch?v=tvJ_aQbVP8o&list=PLjAJfrhVJlrtIBXFCMx4fJzSQxnr4Rjru&index=1&pp=gAQBiAQB8AUB'},
+                    {title: 'maggots.', artist: 'Akali', plays: 9059159, url: 'https://www.youtube.com/watch?v=M3kBRMBHLI4&list=PLjAJfrhVJlrtIBXFCMx4fJzSQxnr4Rjru&index=2&pp=gAQBiAQB8AUB'},
+                    {title: 'manners.', artist: 'Akali', plays: 7399858, url: 'https://www.youtube.com/watch?v=KgDC-nCH0uk&list=PLjAJfrhVJlrtIBXFCMx4fJzSQxnr4Rjru&index=3&pp=gAQBiAQB8AUB'}
+                ]
+            }));
+
+            tuneterra.discographyAddAlbum(createAlbum({
+                albumTitle: 'Death Mark',
+                albumType: 'EP',
+                albumImage: './data/img/album_deathmark.png',
+                albumDate: (new Date('2022-07-09T00:00:00')),
+                albumTracks: [
+                    {title: 'Riot', artist: 'Akali, Kayn, Zed', plays: 5321675, url: 'https://www.youtube.com/watch?v=H3vZmkV-m-U&list=PLjAJfrhVJlruulaPSFJLA1IIH3Q0k1uCU&index=1&pp=gAQBiAQB8AUB'},
+                    {title: 'Crazy', artist: 'Akali, Kayn, Zed', plays: 5200857, url: 'https://www.youtube.com/watch?v=wMb_nskK1RY&list=PLjAJfrhVJlruulaPSFJLA1IIH3Q0k1uCU&index=2&pp=gAQBiAQB8AUB'},
+                    {title: 'Woopty Woo Woo', artist: 'Akali, Kayn, Zed', plays: 6136004, url: 'https://www.youtube.com/watch?v=S6jPnmp1ygI&list=PLjAJfrhVJlruulaPSFJLA1IIH3Q0k1uCU&index=3&pp=gAQBiAQB8AUB&t=26s'},
+                    {title: 'Sorry That I\'m Not Sorry', artist: 'Akali, Kayn, Zed', plays: 6583606, url: 'https://www.youtube.com/watch?v=aUl3GkqxFls&list=PLjAJfrhVJlruulaPSFJLA1IIH3Q0k1uCU&index=4&pp=gAQBiAQB8AUB'}
+                ]
+            }));
+
+            tuneterra.discographyAddAlbum(createAlbum({
+                albumTitle: 'Alignment',
+                albumType: 'EP',
+                albumImage: './data/img/album_alignment.png',
+                albumDate: (new Date('2022-02-14T00:00:00')),
+                albumTracks: [
+                    {title: 'art gang money.', artist: 'Akali, Kayn', plays: 5561182, url: 'https://www.youtube.com/watch?v=YW2sjXtyIjY&list=PLjAJfrhVJlrtqgOMCunPWOm1SZeD8zq1m&index=1&pp=gAQBiAQB8AUB'},
+                    {title: 'cider. (사이다)', artist: 'Akali', plays: 5578447, url: 'https://www.youtube.com/watch?v=OzmMqAUdqFo&list=PLjAJfrhVJlrtqgOMCunPWOm1SZeD8zq1m&index=2&pp=gAQBiAQB8AUB'},
+                    {title: 'crazy dog. (미친개)', artist: 'Akali, Kayn', plays: 5026869, url: 'https://www.youtube.com/watch?v=gVx3kKbRkqc&list=PLjAJfrhVJlrtqgOMCunPWOm1SZeD8zq1m&index=3&pp=gAQBiAQB8AUB'}
+                ]
+            }));
+
+            tuneterra.discographyAddAlbum(createAlbum({
+                albumTitle: 'Kinkou',
+                albumType: 'EP',
+                albumImage: './data/img/album_kinkou.png',
+                albumDate: (new Date('2021-09-27T00:00:00')),
+                albumTracks: [
+                    {title: 'stfd.', artist: 'Akali', plays: 3377464, url: 'https://www.youtube.com/watch?v=XyNHIsp_3k0&list=PLjAJfrhVJlrtwJ_f015fCjx7jx0HYcKpB&index=1&pp=gAQBiAQB8AUB'},
+                    {title: 'kinko.', artist: 'Akali', plays: 3110821, url: 'https://www.youtube.com/watch?v=SNMry0BKaCI&list=PLjAJfrhVJlrtwJ_f015fCjx7jx0HYcKpB&index=2&pp=gAQBiAQB8AUB'},
+                    {title: 'villain.', artist: 'Akali', plays: 4232752, url: 'https://www.youtube.com/watch?v=OHGcLL10cDc&list=PLjAJfrhVJlrtwJ_f015fCjx7jx0HYcKpB&index=3&pp=gAQBiAQB8AUB'},
+                    {title: 'not the same.', artist: 'Akali', plays: 3037265, url: 'https://www.youtube.com/watch?v=-6Ufsn3JZ30&list=PLjAJfrhVJlrtwJ_f015fCjx7jx0HYcKpB&index=4&pp=gAQBiAQB8AUB'},
+                    {title: 'you made me.', artist: 'Akali', plays: 4040663, url: 'https://www.youtube.com/watch?v=fjCPAbxRxLs&list=PLjAJfrhVJlrtwJ_f015fCjx7jx0HYcKpB&index=5&pp=gAQBiAQB8AUB'}
+                ]
+            }));
+
+            tuneterra.discographyAddAlbum(createAlbum({
+                albumTitle: 'Going Rogue // F**K',
+                albumType: 'EP',
+                albumImage: './data/img/album_goingrogue.png',
+                albumDate: (new Date('2021-04-25T00:00:00')),
+                albumTracks: [
+                    {title: 'problem.', artist: 'Akali', plays: 4791273, url: 'https://www.youtube.com/watch?v=r2_zpgckj84&list=PLjAJfrhVJlrumrsUiQwiBgV-tL-WkJ6x_&index=1&pp=gAQBiAQB8AUB'},
+                    {title: 'JESUS ON MY NECK', artist: 'J!NX', plays: 40129312, url: 'https://www.youtube.com/watch?v=_PPs06cBMtI&list=PLjAJfrhVJlrumrsUiQwiBgV-tL-WkJ6x_&index=2&pp=gAQBiAQB8AUB'},
+                    {title: 'Wishing Well (Interlude)', artist: 'Akali, J!NX', plays: 51972639, url: 'https://www.youtube.com/watch?v=hDg36Dga1F8&list=PLjAJfrhVJlrumrsUiQwiBgV-tL-WkJ6x_&index=3&pp=gAQBiAQB8AUB'},
+                    {title: 'GENGHIS KHAN', artist: 'J!NX', plays: 45929384, url: 'https://www.youtube.com/watch?v=VkOICeaZ0rA&list=PLjAJfrhVJlrumrsUiQwiBgV-tL-WkJ6x_&index=4&pp=gAQBiAQB8AUB'},
+                    {title: 'made in gold.', artist: 'Akali', plays: 43892749, url: 'https://www.youtube.com/watch?v=_AQxq3iCpAI&list=PLjAJfrhVJlrumrsUiQwiBgV-tL-WkJ6x_&index=5&pp=gAQBiAQB8AUB'}
+                ]
+            }));
+
+            tuneterra.discographyAddAlbum(createAlbum({
+                albumTitle: 'ALL OUT',
+                albumType: 'EP',
+                albumImage: './data/img/album_allout.jpg',
+                albumDate: (new Date('2020-10-28T00:00:00')),
+                albumTracks: [
+                    {title: 'THE BADDEST', artist: 'Ahri, Akali, Evelynn, Kai\'Sa', plays: 40278704, url: 'https://www.youtube.com/watch?v=Y8kMcf4kyIk&list=PLjAJfrhVJlrswud00W0lpVj5M8p5-6vsb&index=1&pp=gAQBiAQB8AUB'},
+                    {title: 'MORE', artist: 'Ahri, Akali, Evelynn, Kai\'Sa, Seraphine', plays: 42870293, url: 'https://www.youtube.com/watch?v=QTfK8bCHuvs&list=PLjAJfrhVJlrswud00W0lpVj5M8p5-6vsb&index=2&pp=gAQBiAQB8AUB'},
+                    {title: 'VILLAIN', artist: 'Evelynn', plays: 27739201, url: 'https://www.youtube.com/watch?v=T4fPoRTFWsA&list=PLjAJfrhVJlrswud00W0lpVj5M8p5-6vsb&index=3&pp=gAQBiAQB8AUB'},
+                    {title: 'DRUM GO DUM', artist: 'Kai\'sa', plays: 25983007, url: 'https://www.youtube.com/watch?v=E2ogu8Vi098&list=PLjAJfrhVJlrswud00W0lpVj5M8p5-6vsb&index=4&pp=gAQBiAQB8AUB'},
+                    {title: 'I\'LL SHOW YOU', artist: 'Ahri', plays: 26298112, url: 'https://www.youtube.com/watch?v=2KlHN15BCNg&list=PLjAJfrhVJlrswud00W0lpVj5M8p5-6vsb&index=5&pp=gAQBiAQB8AUB'}
+                ]
+            }));
+
+            tuneterra.discographyAddAlbum(createAlbum({
+                albumTitle: 'GIANTS',
+                albumType: 'Single',
+                albumImage: './data/img/album_giants.jpg',
+                albumDate: (new Date('2019-11-10T00:00:00')),
+                albumTracks: [
+                    {title: 'GIANTS', artist: 'Akali, Ekko, Qiyana, Senna, Yasuo', plays: 32903645, url: 'https://www.youtube.com/watch?v=jVdVp7fs21U&list=PLjAJfrhVJlrvP85pJZfn-qUcHvUtq4oJY&index=1&pp=gAQBiAQB8AUB'}
+                ]
+            }));
+
+            tuneterra.discographyAddAlbum(createAlbum({
+                albumTitle: 'POP/STARS',
+                albumType: 'Single',
+                albumImage: './data/img/album_popstars.jpg',
+                albumDate: (new Date('2018-11-03T00:00:00')),
+                albumTracks: [
+                    {title: 'POP/STARS', artist: 'Ahri, Akali, Evelynn, Kai\'sa', plays: 65168414, url: 'https://www.youtube.com/watch?v=UQBwlhAm6Yk&list=PLjAJfrhVJlrt4-MoCyuSq0yMbjS6lriM0&index=1&pp=gAQBiAQB8AUB'}
+                ]
+            }));
+
+            tuneterra.discographyAddAlbum(createAlbum({
+                albumTitle: 'Neon Ninja (Covers)',
+                albumType: 'EP',
+                albumImage: './data/img/album_neonninja.png',
+                albumDate: (new Date('2015-04-25T00:00:00')),
+                albumTracks: [
+                    {title: 'Without Me', artist: 'Akali', plays: 4922, url: 'https://www.youtube.com/watch?v=5Jxv1W_rNbQ&list=PLjAJfrhVJlrvBNMDFHNByXwLhZywQsYNO&index=1&pp=gAQBiAQB8AUB'},
+                    {title: 'Heartbeat', artist: 'Akali', plays: 8839, url: 'https://www.youtube.com/watch?v=B9Hg2-zbywg&list=PLjAJfrhVJlrvBNMDFHNByXwLhZywQsYNO&index=2&pp=gAQBiAQB8AUB'},
+                    {title: 'Homicide', artist: 'Akali', plays: 130296, url: 'https://www.youtube.com/watch?v=DyPOa2jEl_Q&list=PLjAJfrhVJlrvBNMDFHNByXwLhZywQsYNO&index=3&pp=gAQBiAQB8AUB'},
+                    {title: 'Godzilla', artist: 'Akali', plays: 193892, url: 'https://www.youtube.com/watch?v=kGT1Pkts-UY&list=PLjAJfrhVJlrvBNMDFHNByXwLhZywQsYNO&index=4&pp=gAQBiAQB8AUB'}
+                ]
+            }));
+        </script>
+    </body>
+</html>

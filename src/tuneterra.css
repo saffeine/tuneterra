@@ -1,0 +1,176 @@
+body {
+    font-size: 14px;
+    font-family: Tahoma;
+    margin: 0px; padding: 0px;
+    background-color: #020305;
+}
+
+#container {
+    display: inline-block;
+    position: absolute;
+    
+    left: 50%;
+
+    min-width: 640px;
+    width: 80%;
+    height: 100%;
+
+    margin: 0px -40%;
+
+    overflow-y: auto;
+    background-color: #040508;
+}
+
+#profile_container {
+    display: inline-block;
+
+    width: 100%;
+    max-height: 256px;
+
+    color: #FFF;
+    overflow: hidden;
+    background-color: #000;
+    border-bottom: 1px solid #EEE2;
+}
+
+#profile_container > * {
+    display: inline-block;
+    position: absolute;
+}
+
+#profile_container .banner {
+    position: relative;
+    left: 0px; top: 0px;
+    width: 100%;
+    opacity: .2;
+}
+
+#profile_container .avatar {
+    top: 32px; left: 32px;
+    width: 128px; height: 128px;
+    border-radius: 128px;
+}
+
+#profile_container .name {
+    top: 24px; left: 180px;
+    font-size: 64px;
+}
+
+#profile_container .verified {
+    top: 92px; left: 180px;
+    font-size: 18px;
+}
+
+#profile_container .verified img {
+    margin: -2px 0px;
+}
+
+#profile_container .details {
+    top: 128px; left: 180px;
+}
+
+#profile_container .description {
+    top: 180px; left: 4%;
+    width: 92%; height: auto;
+    color: #DDD;
+    text-shadow: 1px 1px 1px #000, 1px 1px 2px #000, 1px 1px 3px #000;
+}
+
+.album_container {
+    display: inline-block;
+
+    width: 98%;
+    margin: 8px 1%;
+
+    transition: .1s;
+    overflow: hidden;
+    border-radius: 8px;
+    box-sizing: content-box;
+}
+
+.album_container:hover {
+    background-color: #FFFFFF08;
+}
+
+.album_container .album_header {
+    display: inline-block;
+
+    width: 100%;
+    height: 96px;
+
+    color: #EEE;
+    overflow-x: hidden;
+    background-color: #6661;
+}
+
+.album_container .album_header .title {
+    display: inline-block;
+    position: absolute;
+
+    margin: 8px 100px;
+
+    font-size: 48px;
+    font-family: Calibri;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.album_container .album_header .subtitle {
+    display: inline-block;
+    position: absolute;
+
+    margin: 64px 100px;
+
+    color: #888;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.album_container .album_header img {
+    display: inline-block;
+    position: absolute;
+
+    width: 80px;
+    height: 80px;
+    margin: 8px;
+
+    background-color: #FFF1;
+}
+
+.album_container .album_tracklist {
+    width: 100%;
+    transition: .2s;
+}
+
+.album_container .album_tracklist table {
+    color: #DDD;
+    width: 100%;
+    padding: 4px;
+    transition: .2s;
+}
+
+.album_container .album_tracklist table td {
+    padding: 8px 8px;
+    text-align: right;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.album_container .album_tracklist table td .grey {
+    color: #CCC6;
+}
+
+.album_container .album_tracklist table td:nth-child(2) {
+    text-align: left;
+}
+
+.album_container .album_tracklist table .norm:hover {
+    cursor: pointer;
+    background-color: #FFF1;
+}
+
+.album_container .album_tracklist table .tracklist_header {
+    color: #CCC6;
+    padding: 16px 8px 8px 8px;
+    border-bottom: 1px solid #FFF4;
+}
