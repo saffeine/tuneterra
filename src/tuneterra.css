@@ -51,13 +51,13 @@ body {
 }
 
 #profile_container .name {
-    top: 24px; left: 180px;
-    font-size: 64px;
+    top: 32px; left: 180px;
+    font-size: 56px;
 }
 
 #profile_container .verified {
     top: 92px; left: 180px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #profile_container .verified img {
@@ -65,11 +65,11 @@ body {
 }
 
 #profile_container .details {
-    top: 128px; left: 180px;
+    top: 120px; left: 180px;
 }
 
 #profile_container .description {
-    top: 180px; left: 32px;
+    top: 172px; left: 32px;
     width: 92%; height: auto;
     color: #DDD;
     font-size: 14px;
