@@ -102,9 +102,9 @@ tuneterra = (function(){
         profileImage: './data/img/akali_profile_256px.png',
         profileLocation: 'Seoul, South Korea',
         profileFollowers: 13872840,
-        profileDescription: `From her bedroom to the big stage, right back to her bedroom again -
-        Akali Jhomen Tethi secured her status as an SoundCloud rapper turned global K-Pop sensation before returning to her roots as an independent soloist.
-        Her proficiency in the rap game has blazed trails and inspired thousands to walk the scorched path in her wake.`
+        profileDescription: 'From her bedroom to the big stage, right back to her bedroom again - ' +
+        'Akali Jhomen Tethi secured her status as an SoundCloud rapper turned global K-Pop sensation before returning to her roots as an independent soloist.<br>' +
+        'Her proficiency in the rap game has blazed trails and inspired thousands to walk the scorched path in her wake.'
     };
 
     let discography = [];

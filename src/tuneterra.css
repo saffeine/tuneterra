@@ -23,7 +23,7 @@ body {
 #profile_container {
     display: inline-block;
 
-    width: 100%;
+    width: 720px;
     max-height: 256px;
 
     color: #FFF;
@@ -40,7 +40,7 @@ body {
 #profile_container .banner {
     position: relative;
     left: 0px; top: 0px;
-    width: 100%;
+    width: 720px;
     opacity: .2;
 }
 
@@ -69,10 +69,12 @@ body {
 }
 
 #profile_container .description {
-    top: 172px; left: 32px;
-    width: 656px;
+    top: 148px; left: 0px;
+    width: 720px;
+    padding: 32px;
     color: #DDD;
-    font-size: 14px;
+    font-size: 13px;
+    box-sizing: border-box;
     text-shadow: 1px 1px 1px #000, 1px 1px 2px #000, 1px 1px 3px #000;
 }
 
